@@ -9,7 +9,7 @@ import lombok.NonNull;
 public class Image {
     final Long id;
     @NonNull
-    long postId;
+    Long postId;
     String originalFileName;
     String filePath;
 }
